@@ -1,0 +1,10 @@
+{
+    "name": "AutoLiker",
+    "version": "1.0",
+    "description": "Chrome extension that automatically likes Facebook and Instagram Posts",
+    "manifest_version": 2,
+    "background": {
+        "scripts": "background.js",
+        "persistent": "false"
+    }
+}
