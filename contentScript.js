@@ -6,6 +6,8 @@ console.log("Script is running...")
 
 setInterval(likePosts, 60000);
 
+// create function that checks if posts are already liked to speed up the liking process
+
 
  
 function likePosts() {
@@ -19,7 +21,10 @@ function likePosts() {
                 item.click();
                 console.log("liked");
 
-            } 
+            } else {
+                window.scrollBy(0, 3000);
+
+            }
         }           
         
         console.log("Iteration: " + counter);

@@ -9,3 +9,8 @@ button {
       width: 100px;
       outline: black
   }
+
+  .main {
+      height: 80px;
+      width: 250px
+  }
