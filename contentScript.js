@@ -2,8 +2,12 @@ alert("Liking all Instagram Posts in your feed...");
 
 var counter = 0;
 
- setInterval(likePosts, 60000);
+console.log("Script is running...")
 
+setInterval(likePosts, 60000);
+
+
+ 
 function likePosts() {
     
         window.scrollBy(0, 3000);

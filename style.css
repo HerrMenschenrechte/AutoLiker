@@ -1,0 +1,11 @@
+button {
+    height: 30px;
+    width: 70x;
+    outline: none;
+  }
+
+  div {
+      height: 100px;
+      width: 100px;
+      outline: black
+  }
